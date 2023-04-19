@@ -39,7 +39,7 @@ const Navbar = () => {
         </ul>
 
         <div className="social__box">
-          <Svginsta />
+          <Svginsta width={45} height={45} />
         </div>
       </div>
     </div>
