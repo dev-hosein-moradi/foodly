@@ -36,6 +36,9 @@ const Hero = () => {
             <button>مشاهده منو جهت سفارش</button>
           </div>
         </section>
+        <img className="bg__shapes1" src={Item2} alt="item" />
+        <img className="bg__shapes2" src={Item3} alt="item" />
+        <img className="bg__shapes3" src={Item4} alt="item" />
       </div>
     </div>
   );
