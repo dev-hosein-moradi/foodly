@@ -20,6 +20,7 @@
     width: 50%;
     cursor: pointer;
     font-family: 'Kamva';
+    padding: 0 .5rem;
 }
 
 .navbar__items.sm {
@@ -45,7 +46,9 @@
 }
 
 .navbar__items.sm li:hover,
-.navbar__items.sm li:active {
+.navbar__items.sm li:active,
+.navbar__items.lg li:hover,
+.navbar__items.lg li:active {
     border-color: #27202f;
     transform: translateX(-5px) skewY(1deg);
 }
@@ -103,5 +106,7 @@
         cursor: pointer;
         padding: .5rem 0;
         margin: 0 1.5rem;
+        transition: .1s all ease-in;
     }
+
 }
