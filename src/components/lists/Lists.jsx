@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import "./lists.css";
 import hero1 from "../../assets/image/hero1.jpg";
 import berger from "../../assets/image/berger.jpg";
