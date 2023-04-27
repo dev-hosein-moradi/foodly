@@ -1,13 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./hero.css";
-import Item2 from "../../assets/image/item2.png";
-import Item3 from "../../assets/image/item3.png";
-import Item4 from "../../assets/image/item4.png";
+
 import HeroImg from "../../assets/image/hero2.jpg";
 import Navbar from "../navbar/Navbar";
 import Svginsta from "../../assets/Svgs/Svginsta";
-
-const imageItems = [Item2, Item3, Item4];
 
 const Hero = () => {
   return (
@@ -44,9 +40,6 @@ const Hero = () => {
             <button>مشاهده منو جهت سفارش</button>
           </div>
         </section>
-        <img className="bg__shapes1" src={Item2} alt="item" />
-        <img className="bg__shapes2" src={Item3} alt="item" />
-        <img className="bg__shapes3" src={Item4} alt="item" />
       </div>
     </div>
   );

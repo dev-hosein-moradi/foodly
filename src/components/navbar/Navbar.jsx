@@ -15,7 +15,7 @@ const Navbar = () => {
 
         {/* navbar links item */}
         <ul className={`navbar__items lg ${!isAside ? "close" : "open"}`}>
-          <li>مشاهده لیست غذا</li>
+          <li>مشاهده منو کافه </li>
           <li>درباره ما</li>
           <li>صحفه اصلی</li>
         </ul>

@@ -10,49 +10,6 @@
     position: relative;
 }
 
-.bg__shapes1 {
-    position: absolute;
-    top: 140px;
-    width: 100px;
-    z-index: 1;
-    transform: scale(.5);
-    animation: bg__anim 3s infinite forwards ease-in;
-}
-
-.bg__shapes2 {
-    position: absolute;
-    top: 470px;
-    left: 10px;
-    width: 100px;
-    z-index: 1;
-    transform: scale(.5);
-    animation: bg__anim 3s infinite forwards ease-in;
-}
-
-.bg__shapes3 {
-    position: absolute;
-    top: 550px;
-    right: 10px;
-    width: 100px;
-    z-index: 1;
-    transform: scale(.5);
-    animation: bg__anim 3s infinite forwards ease-in-out;
-    transform-style: preserve-3d;
-}
-
-@keyframes bg__anim {
-    0% {
-        transform: scale(.5);
-    }
-
-    50% {
-        transform: scale(.2) rotate(20deg);
-    }
-
-    100% {
-        transform: scale(.5);
-    }
-}
 
 .hero__content {
     width: 100%;
@@ -303,17 +260,5 @@
     .content__social.lg p {
         font-size: 1.5rem;
         margin-bottom: 1rem;
-    }
-
-    .bg__shapes1 {
-        top: 200px;
-    }
-
-    .bg__shapes2 {
-        top: 100px;
-    }
-
-    .bg__shapes3 {
-        right: 150px;
     }
 }
